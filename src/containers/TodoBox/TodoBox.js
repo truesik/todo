@@ -17,7 +17,6 @@ class TodoBox extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    // const form = ReactDOM.findDOMNode(this.refs.form);
     const title = ReactDOM.findDOMNode(this.refs.title);
     const description = ReactDOM.findDOMNode(this.refs.description);
     if (title.value.trim().length > 0) {
