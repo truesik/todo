@@ -2,9 +2,9 @@ import React from 'react';
 import {IndexRoute, Route} from 'react-router';
 import {
     App,
-    TodoBox
+    TodoBox,
+    TodoDetails
   } from 'containers';
-import TodoDetails from './components/TodoDetails/TodoDetails';
 
 export default () => {
   /**

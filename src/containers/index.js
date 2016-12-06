@@ -9,3 +9,4 @@ export Survey from './Survey/Survey';
 export NotFound from './NotFound/NotFound';
 export Pagination from './Pagination/Pagination';
 export TodoBox from './TodoBox/TodoBox';
+export TodoDetails from './TodoDetails/TodoDetails';
